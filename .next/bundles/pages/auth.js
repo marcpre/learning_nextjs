@@ -27,7 +27,7 @@ var user = function user(props) {
     return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
         'div',
         {
-            className: 'jsx-1233126225',
+            className: 'jsx-2876080547',
             __source: {
                 fileName: _jsxFileName,
                 lineNumber: 4
@@ -36,7 +36,7 @@ var user = function user(props) {
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
             'h1',
             {
-                className: 'jsx-1233126225',
+                className: 'jsx-2876080547',
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 5
@@ -47,7 +47,7 @@ var user = function user(props) {
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(
             'p',
             {
-                className: 'jsx-1233126225',
+                className: 'jsx-2876080547',
                 __source: {
                     fileName: _jsxFileName,
                     lineNumber: 6
@@ -57,8 +57,8 @@ var user = function user(props) {
             props.age
         ),
         __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-            styleId: '1233126225',
-            css: 'div.jsx-1233126225{border:1px solid #eee;box-shadow:0 2px 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvVXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNb0IsQUFHdUMsc0JBQ0ksMEJBQ2IsYUFDSSxrQkFDckIiLCJmaWxlIjoiY29tcG9uZW50cy9Vc2VyLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL3VidW50dS93b3Jrc3BhY2UiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXG5cbmNvbnN0IHVzZXIgPSAocHJvcHMpID0+IChcbiAgICA8ZGl2PlxuICAgICAgICA8aDE+e3Byb3BzLm5hbWV9PC9oMT5cbiAgICAgICAgPHA+QWdlOiB7cHJvcHMuYWdlfTwvcD5cbiAgICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAgICAgZGl2IHtcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xuICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDNweCAjY2NjO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjpjZW50ZXI7XG4gICAgICAgICAgICB9XG4gICAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgdXNlciJdfQ== */\n/*@ sourceURL=components/User.js */'
+            styleId: '2876080547',
+            css: 'div.jsx-2876080547{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBvbmVudHMvVXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNb0IsQUFHdUMsc0JBQ0cseUJBQ1osYUFDSyxrQkFDdEIiLCJmaWxlIjoiY29tcG9uZW50cy9Vc2VyLmpzIiwic291cmNlUm9vdCI6Ii9ob21lL3VidW50dS93b3Jrc3BhY2UiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5jb25zdCB1c2VyID0gKHByb3BzKSA9PiAoXG4gICAgPGRpdj5cbiAgICAgICAgPGgxPntwcm9wcy5uYW1lfTwvaDE+XG4gICAgICAgIDxwPkFnZToge3Byb3BzLmFnZX08L3A+XG4gICAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgICAgIGRpdiB7XG4gICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VlZTtcbiAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDJwIDNweCAjY2NjO1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgfVxuICAgICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCB1c2VyOyJdfQ== */\n/*@ sourceURL=components/User.js */'
         })
     );
 };
@@ -4998,42 +4998,53 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/cjs/react.development.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_User__ = __webpack_require__("./components/User.js");
-var _jsxFileName = '/home/ubuntu/workspace/pages/auth/index.js';
+var _jsxFileName = "/home/ubuntu/workspace/pages/auth/index.js";
 
 (function () {
-    var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
 
-    enterModule && enterModule(module);
+  enterModule && enterModule(module);
 })();
 
 
 
 
-var authIndexPage = function authIndexPage() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
-        {
-            __source: {
-                fileName: _jsxFileName,
-                lineNumber: 6
-            }
-        },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h1',
-            {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 7
-                }
-            },
-            'The Auth Index Page'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_User__["a" /* default */], { name: 'Max', age: '27', __source: {
-                fileName: _jsxFileName,
-                lineNumber: 8
-            }
-        })
-    );
+
+var authIndexPage = function authIndexPage(props) {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+    "div",
+    {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      }
+    },
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      "h1",
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        }
+      },
+      "The Auth Index Page - ",
+      props.appName
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_User__["a" /* default */], { name: "Max", age: 28, __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8
+      }
+    })
+  );
+};
+
+authIndexPage.getInitialProps = function (context) {
+  var promise = new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve({ appName: "Super App (Auth)" });
+    }, 1000);
+  });
+  return promise;
 };
 
 var _default = authIndexPage;
@@ -5041,17 +5052,17 @@ var _default = authIndexPage;
 ;
 
 (function () {
-    var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
 
-    var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
 
-    if (!reactHotLoader) {
-        return;
-    }
+  if (!reactHotLoader) {
+    return;
+  }
 
-    reactHotLoader.register(authIndexPage, 'authIndexPage', '/home/ubuntu/workspace/pages/auth/index.js');
-    reactHotLoader.register(_default, 'default', '/home/ubuntu/workspace/pages/auth/index.js');
-    leaveModule(module);
+  reactHotLoader.register(authIndexPage, "authIndexPage", "/home/ubuntu/workspace/pages/auth/index.js");
+  reactHotLoader.register(_default, "default", "/home/ubuntu/workspace/pages/auth/index.js");
+  leaveModule(module);
 })();
 
 ;
@@ -5077,7 +5088,7 @@ var _default = authIndexPage;
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/auth/index.js");
@@ -5085,7 +5096,7 @@ module.exports = __webpack_require__("./pages/auth/index.js");
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;

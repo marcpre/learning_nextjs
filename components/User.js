@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const user = (props) => (
     <div>
@@ -7,12 +7,12 @@ const user = (props) => (
         <style jsx>{`
             div {
                 border: 1px solid #eee;
-                box-shadow: 0 2px 3px #ccc;
+                box-shadow: 0 2p 3px #ccc;
                 padding: 20px;
-                text-align:center;
+                text-align: center;
             }
         `}</style>
     </div>
-)
+);
 
-export default user
+export default user;

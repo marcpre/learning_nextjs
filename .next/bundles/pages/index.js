@@ -10374,95 +10374,137 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router__ = __webpack_require__("./node_modules/next/router.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_router__);
-var _jsxFileName = '/home/ubuntu/workspace/pages/index.js';
+var _jsxFileName = "/home/ubuntu/workspace/pages/index.js";
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 (function () {
-    var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
+  var enterModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").enterModule;
 
-    enterModule && enterModule(module);
+  enterModule && enterModule(module);
 })();
 
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 
 
 
-var indexPage = function indexPage() {
-    return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'div',
+
+var IndexPage = function (_Component) {
+  _inherits(IndexPage, _Component);
+
+  function IndexPage() {
+    _classCallCheck(this, IndexPage);
+
+    return _possibleConstructorReturn(this, (IndexPage.__proto__ || Object.getPrototypeOf(IndexPage)).apply(this, arguments));
+  }
+
+  _createClass(IndexPage, [{
+    key: "render",
+    value: function render() {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        "div",
         {
-            __source: {
-                fileName: _jsxFileName,
-                lineNumber: 7
-            }
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 17
+          }
         },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'h1',
-            {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 8
-                }
-            },
-            'The Main Page'
+          "h1",
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 18
+            }
+          },
+          "The Main Page of ",
+          this.props.appName
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'p',
-            {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 9
-                }
+          "p",
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 19
+            }
+          },
+          "Go to",
+          " ",
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
+            { href: "/auth", __source: {
+                fileName: _jsxFileName,
+                lineNumber: 21
+              }
             },
-            'Go to ',
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-                { href: '/auth', __source: {
-                        fileName: _jsxFileName,
-                        lineNumber: 9
-                    }
-                },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                    'a',
-                    {
-                        __source: {
-                            fileName: _jsxFileName,
-                            lineNumber: 9
-                        }
-                    },
-                    'Auth'
-                )
+              "a",
+              {
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 22
+                }
+              },
+              "Auth"
             )
+          )
         ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'button',
-            { onClick: function onClick() {
-                    return __WEBPACK_IMPORTED_MODULE_2_next_router___default.a.push('/auth');
-                }, __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 10
-                }
-            },
-            'Go to Auth'
+          "button",
+          { onClick: function onClick() {
+              return __WEBPACK_IMPORTED_MODULE_2_next_router___default.a.push("/auth");
+            }, __source: {
+              fileName: _jsxFileName,
+              lineNumber: 25
+            }
+          },
+          "Go to Auth"
         )
-    );
-};
+      );
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    value: function __reactstandin__regenerateByEval(key, code) {
+      this[key] = eval(code);
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(context) {
+      var promise = new Promise(function (resolve, reject) {
+        setTimeout(function () {
+          resolve({ appName: "Super App" });
+        }, 1000);
+      });
+      return promise;
+    }
+  }]);
 
-var _default = indexPage;
+  return IndexPage;
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
+
+var _default = IndexPage;
+
+
 /* harmony default export */ __webpack_exports__["default"] = (_default);
 ;
 
 (function () {
-    var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
+  var reactHotLoader = __webpack_require__("./node_modules/react-hot-loader/patch.js").default;
 
-    var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
+  var leaveModule = __webpack_require__("./node_modules/react-hot-loader/patch.js").leaveModule;
 
-    if (!reactHotLoader) {
-        return;
-    }
+  if (!reactHotLoader) {
+    return;
+  }
 
-    reactHotLoader.register(indexPage, 'indexPage', '/home/ubuntu/workspace/pages/index.js');
-    reactHotLoader.register(_default, 'default', '/home/ubuntu/workspace/pages/index.js');
-    leaveModule(module);
+  reactHotLoader.register(IndexPage, "IndexPage", "/home/ubuntu/workspace/pages/index.js");
+  reactHotLoader.register(_default, "default", "/home/ubuntu/workspace/pages/index.js");
+  leaveModule(module);
 })();
 
 ;
